@@ -49,7 +49,7 @@ void toRoman(int n) {
 int main() {
     initMap();
     int n;
-    std::cin >> n;
+    cin >> n;
     if (n < 1) return 1;
     toRoman(n);
     return 0;
